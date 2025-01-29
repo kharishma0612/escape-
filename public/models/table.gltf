@@ -1,0 +1,2991 @@
+{
+  "accessors": [
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        124.28199768066406,
+        1.3322700012424402e-14,
+        -87.54640197753906
+      ],
+      "max": [
+        144.23199462890625,
+        35.150001525878906,
+        -67.59639739990234
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 0
+    },
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 0
+    },
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 0
+    },
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 0
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        123.2770004272461,
+        17.575000762939453,
+        -88.49639892578125
+      ],
+      "max": [
+        143.2270050048828,
+        40.849998474121094,
+        -66.64640045166016
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 3648
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 3648
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 2432
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 1272
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        123.2770004272461,
+        17.575000762939453,
+        -88.49639892578125
+      ],
+      "max": [
+        143.2270050048828,
+        40.849998474121094,
+        -66.64640045166016
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 10392
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 10392
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 6928
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 3216
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        140.8520050048828,
+        19.237499237060547,
+        -88.49639892578125
+      ],
+      "max": [
+        143.2270050048828,
+        19.950000762939453,
+        -87.78389739990234
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 19620
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -3.4708411152452356e-16,
+        0,
+        -0.9807853102684021
+      ],
+      "max": [
+        1,
+        0.9978589415550232,
+        -3.5388401261574227e-16
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 19620
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 13080
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 5364
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        60.73910140991211,
+        0,
+        -65.43180084228516
+      ],
+      "max": [
+        80.68910217285156,
+        35.150001525878906,
+        -45.4818000793457
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 20484
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 20484
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 13656
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 5568
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        59.789100646972656,
+        17.575000762939453,
+        -66.43720245361328
+      ],
+      "max": [
+        81.63909912109375,
+        40.849998474121094,
+        -46.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 24132
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 24132
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 16088
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 6840
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        59.789100646972656,
+        17.575000762939453,
+        -66.43720245361328
+      ],
+      "max": [
+        81.63909912109375,
+        40.849998474121094,
+        -46.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 30876
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 30876
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 20584
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 8784
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        80.92659759521484,
+        19.237499237060547,
+        -48.86220169067383
+      ],
+      "max": [
+        81.63909912109375,
+        19.950000762939453,
+        -46.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 40104
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -1.3877800513308666e-15,
+        0,
+        9.076509262990033e-17
+      ],
+      "max": [
+        0.9807853102684021,
+        0.9978589415550232,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 40104
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 26736
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 10932
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        61.38679885864258,
+        0,
+        -118.9489974975586
+      ],
+      "max": [
+        81.33679962158203,
+        35.150001525878906,
+        -98.99949645996094
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 40968
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 40968
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 27312
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 11136
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        60.436798095703125,
+        17.575000762939453,
+        -117.94400024414062
+      ],
+      "max": [
+        82.28679656982422,
+        40.849998474121094,
+        -97.99400329589844
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 44616
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 44616
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 29744
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 12408
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        60.436798095703125,
+        17.575000762939453,
+        -117.94400024414062
+      ],
+      "max": [
+        82.28679656982422,
+        40.849998474121094,
+        -97.99400329589844
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 51360
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 51360
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 34240
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 14352
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        60.436798095703125,
+        19.237499237060547,
+        -117.94400024414062
+      ],
+      "max": [
+        61.14929962158203,
+        19.950000762939453,
+        -115.56900024414062
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 60588
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.9807853102684021,
+        0,
+        -1
+      ],
+      "max": [
+        8.049120104905937e-16,
+        0.9978589415550232,
+        -5.2643696550618254e-17
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 60588
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 40392
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 16500
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -84.47440338134766
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -82.57440185546875
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 61452
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 61452
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 40968
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 16704
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -78.76789855957031
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -76.8678970336914
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 66060
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 66060
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 44040
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 18168
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -81.62120056152344
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -79.72119903564453
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 70668
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 70668
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 47112
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 19632
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -75.91470336914062
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -74.01470184326172
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 75276
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 75276
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 50184
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 21096
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -87.32759857177734
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -85.42759704589844
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 79884
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 79884
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 53256
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 22560
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -73.0615005493164
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -71.1614990234375
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 84492
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 84492
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 56328
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 24024
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        69.30249786376953,
+        1.4249999523162842,
+        -90.18080139160156
+      ],
+      "max": [
+        103.50299835205078,
+        28.5,
+        -88.28079986572266
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 89100
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 89100
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 384,
+      "min": [
+        -3,
+        -1.9213199615478516
+      ],
+      "max": [
+        3,
+        1.0831549167633057
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 59400
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 732,
+      "min": [
+        0
+      ],
+      "max": [
+        383
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 25488
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        38.876800537109375,
+        0,
+        -94.05999755859375
+      ],
+      "max": [
+        58.82680130004883,
+        35.150001525878906,
+        -74.11000061035156
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 93708
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 93708
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 62472
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 26952
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        39.882198333740234,
+        17.575000762939453,
+        -95.01000213623047
+      ],
+      "max": [
+        59.83219909667969,
+        40.849998474121094,
+        -73.16000366210938
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 97356
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 97356
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 64904
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 28224
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        39.882198333740234,
+        17.575000762939453,
+        -95.01000213623047
+      ],
+      "max": [
+        59.83219909667969,
+        40.849998474121094,
+        -73.16000366210938
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 104100
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 104100
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 69400
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 30168
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        39.882198333740234,
+        19.237499237060547,
+        -73.87249755859375
+      ],
+      "max": [
+        42.257198333740234,
+        19.950000762939453,
+        -73.16000366210938
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 113328
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -1,
+        0,
+        0
+      ],
+      "max": [
+        0,
+        0.9978589415550232,
+        0.9807853102684021
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 113328
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 75552
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 32316
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        93.15779876708984,
+        0,
+        -66.43180084228516
+      ],
+      "max": [
+        113.10800170898438,
+        35.150001525878906,
+        -46.4818000793457
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 114192
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 114192
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 76128
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 32520
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        92.20780181884766,
+        17.575000762939453,
+        -67.43720245361328
+      ],
+      "max": [
+        114.05799865722656,
+        40.849998474121094,
+        -47.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 117840
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 117840
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 78560
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 33792
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        92.20780181884766,
+        17.575000762939453,
+        -67.43720245361328
+      ],
+      "max": [
+        114.05799865722656,
+        40.849998474121094,
+        -47.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 124584
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 124584
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 83056
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 35736
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        113.34500122070312,
+        19.237499237060547,
+        -49.86220169067383
+      ],
+      "max": [
+        114.05799865722656,
+        19.950000762939453,
+        -47.48720169067383
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 133812
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -1.3877800513308666e-15,
+        0,
+        9.076509262990033e-17
+      ],
+      "max": [
+        0.9807853102684021,
+        0.9978589415550232,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 133812
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 89208
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 37884
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        93.80549621582031,
+        0,
+        -118.4489974975586
+      ],
+      "max": [
+        113.75599670410156,
+        35.150001525878906,
+        -98.49949645996094
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 134676
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 134676
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 304,
+      "min": [
+        -1.75,
+        -2.083329916000366
+      ],
+      "max": [
+        1.75,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 89784
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 636,
+      "min": [
+        0
+      ],
+      "max": [
+        303
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 38088
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        92.85549926757812,
+        17.575000762939453,
+        -117.44400024414062
+      ],
+      "max": [
+        114.70600128173828,
+        40.849998474121094,
+        -97.49400329589844
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 138324
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 138324
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 562,
+      "min": [
+        -9.949540138244629,
+        -0.44995999336242676
+      ],
+      "max": [
+        9.949540138244629,
+        1
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 92216
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 972,
+      "min": [
+        0
+      ],
+      "max": [
+        561
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 39360
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        92.85549926757812,
+        17.575000762939453,
+        -117.44400024414062
+      ],
+      "max": [
+        114.70600128173828,
+        40.849998474121094,
+        -97.49400329589844
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 145068
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 145068
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 769,
+      "min": [
+        -23,
+        -42
+      ],
+      "max": [
+        23,
+        21.927000045776367
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 96712
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 1074,
+      "min": [
+        0
+      ],
+      "max": [
+        768
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 41304
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        92.85549926757812,
+        19.237499237060547,
+        -117.44400024414062
+      ],
+      "max": [
+        93.56800079345703,
+        19.950000762939453,
+        -115.06900024414062
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 154296
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.9807853102684021,
+        0,
+        -1
+      ],
+      "max": [
+        8.049120104905937e-16,
+        0.9978589415550232,
+        -5.2643696550618254e-17
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 154296
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 72,
+      "min": [
+        -0.75,
+        -20
+      ],
+      "max": [
+        3.558350086212158,
+        -1.0237599611282349
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 102864
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 102,
+      "min": [
+        0
+      ],
+      "max": [
+        71
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 43452
+    },
+    {
+      "name": "Mesh39 Model_1_0_positions",
+      "componentType": 5126,
+      "count": 32,
+      "min": [
+        52.20249938964844,
+        28.5,
+        -103.46099853515625
+      ],
+      "max": [
+        120.60299682617188,
+        29.829999923706055,
+        -57.86149978637695
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 155160
+    },
+    {
+      "name": "Mesh39 Model_1_0_normals",
+      "componentType": 5126,
+      "count": 32,
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 155160
+    },
+    {
+      "name": "Mesh39 Model_1_0_texcoords",
+      "componentType": 5126,
+      "count": 32,
+      "min": [
+        -120.60299682617188,
+        -102.46099853515625
+      ],
+      "max": [
+        120.60299682617188,
+        -27.5
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 103440
+    },
+    {
+      "name": "Mesh39 Model_1_0_indices",
+      "componentType": 5123,
+      "count": 36,
+      "min": [
+        0
+      ],
+      "max": [
+        31
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 43656
+    },
+    {
+      "name": "Mesh39 Model_1_1_positions",
+      "componentType": 5126,
+      "count": 20,
+      "min": [
+        52.20249938964844,
+        28.5,
+        -103.46099853515625
+      ],
+      "max": [
+        120.60299682617188,
+        29.829999923706055,
+        -57.86149978637695
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 155544
+    },
+    {
+      "name": "Mesh39 Model_1_1_normals",
+      "componentType": 5126,
+      "count": 20,
+      "min": [
+        -1,
+        0,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 155544
+    },
+    {
+      "name": "Mesh39 Model_1_1_texcoords",
+      "componentType": 5126,
+      "count": 20,
+      "min": [
+        -2.033629894256592,
+        -2.2054800987243652
+      ],
+      "max": [
+        2.033629894256592,
+        0.24747200310230255
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 103696
+    },
+    {
+      "name": "Mesh39 Model_1_1_indices",
+      "componentType": 5123,
+      "count": 30,
+      "min": [
+        0
+      ],
+      "max": [
+        19
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 43728
+    },
+    {
+      "name": "Mesh39 Model_1_2_positions",
+      "componentType": 5126,
+      "count": 4,
+      "min": [
+        52.20249938964844,
+        28.5,
+        -103.46099853515625
+      ],
+      "max": [
+        120.60299682617188,
+        28.5,
+        -57.86149978637695
+      ],
+      "type": "VEC3",
+      "bufferView": 0,
+      "byteOffset": 155784
+    },
+    {
+      "name": "Mesh39 Model_1_2_normals",
+      "componentType": 5126,
+      "count": 4,
+      "min": [
+        0,
+        -1,
+        0
+      ],
+      "max": [
+        0,
+        -1,
+        0
+      ],
+      "type": "VEC3",
+      "bufferView": 1,
+      "byteOffset": 155784
+    },
+    {
+      "name": "Mesh39 Model_1_2_texcoords",
+      "componentType": 5126,
+      "count": 4,
+      "min": [
+        -120.60299682617188,
+        -102.46099853515625
+      ],
+      "max": [
+        -52.20249938964844,
+        -56.86149978637695
+      ],
+      "type": "VEC2",
+      "bufferView": 2,
+      "byteOffset": 103856
+    },
+    {
+      "name": "Mesh39 Model_1_2_indices",
+      "componentType": 5123,
+      "count": 6,
+      "min": [
+        0
+      ],
+      "max": [
+        3
+      ],
+      "type": "SCALAR",
+      "bufferView": 3,
+      "byteOffset": 43788
+    }
+  ],
+  "asset": {
+    "generator": "obj2gltf",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "name": "dining table sample",
+      "byteLength": 459352,
+      "uri": "dining table sample.bin"
+    }
+  ],
+  "bufferViews": [
+    {
+      "name": "bufferView_0",
+      "buffer": 0,
+      "byteLength": 155832,
+      "byteOffset": 0,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_1",
+      "buffer": 0,
+      "byteLength": 155832,
+      "byteOffset": 155832,
+      "byteStride": 12,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_2",
+      "buffer": 0,
+      "byteLength": 103888,
+      "byteOffset": 311664,
+      "byteStride": 8,
+      "target": 34962
+    },
+    {
+      "name": "bufferView_3",
+      "buffer": 0,
+      "byteLength": 43800,
+      "byteOffset": 415552,
+      "target": 34963
+    }
+  ],
+  "images": [
+    {
+      "name": "Metal_Silver",
+      "uri": "Metal_Silver.jpg"
+    },
+    {
+      "name": "_4",
+      "uri": "_4.jpg"
+    },
+    {
+      "name": "_3",
+      "uri": "_3.jpg"
+    }
+  ],
+  "materials": [
+    {
+      "name": "Metal_Silver",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "_4",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "BackColor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.643137,
+          0.698039,
+          0.733333,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "FrontColor",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    },
+    {
+      "name": "_3",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 2
+        },
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 1
+      },
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "alphaMode": "OPAQUE",
+      "doubleSided": false
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 16,
+            "NORMAL": 17,
+            "TEXCOORD_0": 18
+          },
+          "indices": 19,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 20,
+            "NORMAL": 21,
+            "TEXCOORD_0": 22
+          },
+          "indices": 23,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 24,
+            "NORMAL": 25,
+            "TEXCOORD_0": 26
+          },
+          "indices": 27,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 28,
+            "NORMAL": 29,
+            "TEXCOORD_0": 30
+          },
+          "indices": 31,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 32,
+            "NORMAL": 33,
+            "TEXCOORD_0": 34
+          },
+          "indices": 35,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 36,
+            "NORMAL": 37,
+            "TEXCOORD_0": 38
+          },
+          "indices": 39,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 40,
+            "NORMAL": 41,
+            "TEXCOORD_0": 42
+          },
+          "indices": 43,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 44,
+            "NORMAL": 45,
+            "TEXCOORD_0": 46
+          },
+          "indices": 47,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 48,
+            "NORMAL": 49,
+            "TEXCOORD_0": 50
+          },
+          "indices": 51,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 52,
+            "NORMAL": 53,
+            "TEXCOORD_0": 54
+          },
+          "indices": 55,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 56,
+            "NORMAL": 57,
+            "TEXCOORD_0": 58
+          },
+          "indices": 59,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 60,
+            "NORMAL": 61,
+            "TEXCOORD_0": 62
+          },
+          "indices": 63,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 64,
+            "NORMAL": 65,
+            "TEXCOORD_0": 66
+          },
+          "indices": 67,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 68,
+            "NORMAL": 69,
+            "TEXCOORD_0": 70
+          },
+          "indices": 71,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 72,
+            "NORMAL": 73,
+            "TEXCOORD_0": 74
+          },
+          "indices": 75,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 76,
+            "NORMAL": 77,
+            "TEXCOORD_0": 78
+          },
+          "indices": 79,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 80,
+            "NORMAL": 81,
+            "TEXCOORD_0": 82
+          },
+          "indices": 83,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 84,
+            "NORMAL": 85,
+            "TEXCOORD_0": 86
+          },
+          "indices": 87,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 88,
+            "NORMAL": 89,
+            "TEXCOORD_0": 90
+          },
+          "indices": 91,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 92,
+            "NORMAL": 93,
+            "TEXCOORD_0": 94
+          },
+          "indices": 95,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 96,
+            "NORMAL": 97,
+            "TEXCOORD_0": 98
+          },
+          "indices": 99,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 100,
+            "NORMAL": 101,
+            "TEXCOORD_0": 102
+          },
+          "indices": 103,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 104,
+            "NORMAL": 105,
+            "TEXCOORD_0": 106
+          },
+          "indices": 107,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 108,
+            "NORMAL": 109,
+            "TEXCOORD_0": 110
+          },
+          "indices": 111,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 112,
+            "NORMAL": 113,
+            "TEXCOORD_0": 114
+          },
+          "indices": 115,
+          "material": 1,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 116,
+            "NORMAL": 117,
+            "TEXCOORD_0": 118
+          },
+          "indices": 119,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 120,
+            "NORMAL": 121,
+            "TEXCOORD_0": 122
+          },
+          "indices": 123,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Mesh39 Model_1",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 124,
+            "NORMAL": 125,
+            "TEXCOORD_0": 126
+          },
+          "indices": 127,
+          "material": 2,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 128,
+            "NORMAL": 129,
+            "TEXCOORD_0": 130
+          },
+          "indices": 131,
+          "material": 4,
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": 132,
+            "NORMAL": 133,
+            "TEXCOORD_0": 134
+          },
+          "indices": 135,
+          "material": 3,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "Mesh1 Component_5_1 CHAIR1 Model",
+      "mesh": 0
+    },
+    {
+      "name": "Mesh3 CHAIR1 Model",
+      "mesh": 1
+    },
+    {
+      "name": "Mesh5 Component_5_2 CHAIR2 Model",
+      "mesh": 2
+    },
+    {
+      "name": "Mesh7 CHAIR2 Model",
+      "mesh": 3
+    },
+    {
+      "name": "Mesh9 Component_5_3 CHAIR3 Model",
+      "mesh": 4
+    },
+    {
+      "name": "Mesh11 CHAIR3 Model",
+      "mesh": 5
+    },
+    {
+      "name": "Mesh13 Component_3_1 Component_4_1 Model",
+      "mesh": 6
+    },
+    {
+      "name": "Mesh15 Component_3_2 Component_4_1 Model",
+      "mesh": 7
+    },
+    {
+      "name": "Mesh17 Component_3_3 Component_4_1 Model",
+      "mesh": 8
+    },
+    {
+      "name": "Mesh19 Component_3_4 Component_4_1 Model",
+      "mesh": 9
+    },
+    {
+      "name": "Mesh21 Component_3_5 Component_4_1 Model",
+      "mesh": 10
+    },
+    {
+      "name": "Mesh23 Component_3_6 Component_4_1 Model",
+      "mesh": 11
+    },
+    {
+      "name": "Mesh25 Component_3_7 Component_4_1 Model",
+      "mesh": 12
+    },
+    {
+      "name": "Mesh27 Component_5_4 CHAIR4 Model",
+      "mesh": 13
+    },
+    {
+      "name": "Mesh29 CHAIR4 Model",
+      "mesh": 14
+    },
+    {
+      "name": "Mesh31 Component_5_5 CHAIR5 Model",
+      "mesh": 15
+    },
+    {
+      "name": "Mesh33 CHAIR5 Model",
+      "mesh": 16
+    },
+    {
+      "name": "Mesh35 Component_5_6 CHAIR6 Model",
+      "mesh": 17
+    },
+    {
+      "name": "Mesh37 CHAIR6 Model",
+      "mesh": 18
+    },
+    {
+      "name": "Mesh39 Model",
+      "mesh": 19
+    }
+  ],
+  "samplers": [
+    {
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "name": "Metal_Silver",
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "name": "_4",
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "name": "_3",
+      "sampler": 0,
+      "source": 2
+    }
+  ]
+}
