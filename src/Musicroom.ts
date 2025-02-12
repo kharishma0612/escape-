@@ -7,7 +7,7 @@ import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
 import './style.css';
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(0, 1.6, 5);
+camera.position.set(0, 32, 100);
 const renderer = new THREE.WebGLRenderer({ antialias: true });
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.toneMapping = THREE.ACESFilmicToneMapping;
@@ -22,14 +22,14 @@ await new RGBELoader().loadAsync('img/venice_sunset_1k.hdr').then((texture) => {
 });
 const ambientLight = new THREE.AmbientLight(0xffffff, 0.5); // Soft light
 scene.add(ambientLight);
-const roomMaterial = new THREE.MeshStandardMaterial({ color: 0x654321, roughness: 0.7, metalness: 0.1 });
+const roomMaterial = new THREE.MeshStandardMaterial({ color: 0xBA8E23, roughness: 0.7, metalness: 0.1 });
 const floor = new THREE.Mesh(new THREE.PlaneGeometry(10, 10), roomMaterial);
 floor.rotateX(-Math.PI / 2);
 floor.receiveShadow = true;
 scene.add(floor);
-const wallThickness = 0.5;
-const wallHeight = 5;
-const wallLength = 10;
+const wallThickness = 5;
+const wallHeight = 100;
+const wallLength = 200;
 const wallGeometry = new THREE.BoxGeometry(wallLength, wallHeight, wallThickness)
 const wall1 = new THREE.Mesh(wallGeometry, roomMaterial) 
 wall1.position.set(0, wallHeight / 2, -wallLength / 2)
@@ -44,8 +44,8 @@ wall3.rotateY(Math.PI / 2)
 wall3.position.set(-wallLength / 2, wallHeight / 2, 0)
 scene.add(wall3)
 const otherwallThickness = 0.5;
-const otherwallHeight = 5;
-const otherwallLength = 9;
+const otherwallHeight = 100;
+const otherwallLength = 180;
 const otherwallGeometry = new THREE.BoxGeometry(otherwallLength, otherwallHeight, otherwallThickness)
 const wall4 = new THREE.Mesh(otherwallGeometry, roomMaterial) 
 wall4.scale.set(1, 1, 0.5)
@@ -54,267 +54,122 @@ wall4.position.set(wallLength / 2, wallHeight / 2, 2)
 scene.add(wall4)
 const loader = new GLTFLoader();
 const clickableModels: THREE.Object3D[] = [];
-loader.load('models/table.glb', (gltf) => {
+loader.load('models/electric_guitar_lowpoly_model.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(1.5, 1.5, 1.5);
-  model1.position.set(4, 0, 4);
-  model1.name = 'table';
+  model1.scale.set(6,6,6);
+  model1.position.set(-20, 30, 100);
+  model1.rotation.y = Math.PI;
+  model1.rotation.z = 3*Math.PI/8;
+  model1.name = 'red_guitar';
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading Table model:', error);
 });
-loader.load('models/my_desk.glb', (gltf) => {
+loader.load('models/piano_ukraine.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(1.6, 1.6, 1.6);
-  model1.position.set(4.3, 1.5, 0.5);
-  model1.name = 'my_desk';
+  model1.scale.set(20, 20, 20);
+  model1.position.set(86, 0, 10);
+  model1.name = 'piano';
   model1.rotation.y = 3*Math.PI/2;
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading Table model:', error);
 });
-loader.load('models/door.glb', (gltf) => {
+loader.load('models/marimba.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(0.02, 0.022, 0.02);
-  model1.position.set(wallLength / 2, wallHeight / 2, -3.5);
-  model1.name = 'door';
+  model1.scale.set(10, 10, 10);
+  model1.position.set(-80, 10, -50);
+  model1.name = 'marimba';
+  model1.rotation.y = 3*Math.PI/4;
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
-  console.error('Error loading Door model:', error);
+  console.error('Error loading Table model:', error);
 });
-loader.load('models/paintcan.glb', (gltf) => {
+loader.load('models/harmonium.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(0.2, 0.2, 0.2);
-  model1.position.set(2,0,0);
-  model1.name = 'paintcan';
+  model1.scale.set(1.8, 1.8, 1.8);
+  model1.position.set(-80, 0, 50);
+  model1.name = 'harmonium';
+  model1.rotation.y = Math.PI/2;
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
-  console.error('Error loading painting model:', error);
+  console.error('Error loading Table model:', error);
 });
-loader.load('models/colorspot.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(100, 100, 100);
-  model1.position.set(2,0,0);
-  model1.name = 'colorspot';
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading painting model:', error);
-});
-loader.load('models/caterpillar.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(4, 4, 4);
-  model1.position.set(-4.5,2.4,4.5);
-  model1.name = 'caterpillar';
-  model1.rotation.y = Math.PI;
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading painting model:', error);
-});
-loader.load('models/Lantern.glb', (gltf) => {
+// loader.load('models/door.glb', (gltf) => {
+//   const model1 = gltf.scene;
+//   model1.scale.set(4, 4, 4);
+//   model1.position.set(wallLength / 2, wallHeight / 2, -70);
+//   model1.name = 'door';
+//   clickableModels.push(model1);
+//   scene.add(model1);
+// }, undefined, (error) => {
+//   console.error('Error loading Door model:', error);
+// });
+loader.load('models/guitar.glb', (gltf) => {
   const model1 = gltf.scene
-  model1.scale.set(0.1,0.1,0.1)
-  model1.position.set(-4.5, 0, 4.5)
-  model1.name = 'Lantern';
-  clickableModels.push(model1);
-  scene.add(model1)
-}, undefined, (error) => {
-  console.error('Error loading .gltf model:', error)
-})
-loader.load('models/canvas.glb', (gltf) => {
-  const model1 = gltf.scene
-  model1.scale.set(1,1,1)
-  model1.position.set(-4.5, 2, 3)
-  model1.name = 'canvas';
-  clickableModels.push(model1);
-  scene.add(model1)
-}, undefined, (error) => {
-  console.error('Error loading .gltf model:', error)
-})
-loader.load('models/collage_wall.glb', (gltf) => {
-  const model1 = gltf.scene
-  model1.scale.set(4,4,4)
-  model1.position.set(0, 2.5, 4.7)
-  model1.name = 'collage_wall';
+  model1.scale.set(6,6,6)
+  model1.position.set(-50, 40, 96)
   model1.rotation.x = -Math.PI/2;
+  model1.rotation.y = Math.PI;
+  model1.rotation.z = Math.PI/2;
+  model1.name = 'guitar2';
   clickableModels.push(model1);
   scene.add(model1)
 }, undefined, (error) => {
   console.error('Error loading .gltf model:', error)
 })
-loader.load('models/GlamVelvetSofa.glb', (gltf) => {
+loader.load('models/guitar_hero_guitar.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(2, 2, 2);
-  model1.position.set(0, 0, 4);
-  model1.name = 'GlamVelvetSofa';
+  model1.scale.set(6, 6, 6);
+  model1.position.set(-20, 40, 90);
+  model1.rotation.y = Math.PI;
+  model1.name = 'guitar3';
   clickableModels.push(model1);
   model1.rotation.y = Math.PI;
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading .glb model:', error);
 });
-loader.load('models/colorpens.glb', (gltf) => {
+loader.load('models/speaker.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(4, 4, 4);
-  model1.position.set(-2,0.3, 1);
-  model1.name = 'colorpens';
-  model1.rotation.x = Math.PI;
+  model1.scale.set(0.12, 0.12, 0.12);
+  model1.position.set(-70,0, 80);
+  model1.name = 'speaker';
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading .glb model:', error);
 });
-loader.load('models/markers.glb', (gltf) => {
+loader.load('models/krishna.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(0.3, 0.3, 0.3);
-  model1.position.set(-2,0.3, 1);
-  model1.name = 'markers';
-  model1.rotation.x = Math.PI/2;
+  model1.scale.set(20,20,20);
+  model1.position.set(-66,-10,-66);
+  model1.name = 'krishna';
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading .glb model:', error);
 });
-loader.load('models/papers.glb', (gltf) => {
+loader.load('models/electronic_drum_set.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(0.01, 0.01, 0.01);
-  model1.position.set(0,0.3, 0);
-  model1.name = 'color_palette';
-  model1.rotation.x = 3*Math.PI/2;
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/paintbrush.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(4, 4,4);
-  model1.position.set(-2,0.3, 2);
-  model1.name = 'paintbrush';
-  model1.rotation.x = Math.PI/2;
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/color palette.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.1, 0.1, 0.1);
-  model1.position.set(-1,0.4, 0);
-  model1.name = 'color_palette';
-  model1.rotation.x = Math.PI/16;
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/pencilcase.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.15, 0.15, 0.15);
-  model1.position.set(3, 1.3, 4);
-  model1.name = 'pencilcase';
+  model1.scale.set(40,40,40);
+  model1.position.set(60, 0, 60);
+  model1.name = 'electric_drum';
   clickableModels.push(model1);
   model1.rotation.y = Math.PI;
   scene.add(model1);
 }, undefined, (error) => {
   console.error('Error loading .glb model:', error);
 });
-loader.load('models/cup_with_pencils.glb', (gltf) => {
+loader.load('models/drum.glb', (gltf) => {
   const model1 = gltf.scene;
-  model1.scale.set(3, 3,3);
-  model1.position.set(3.3, 1.3, 3.8);
-  model1.name = 'pencils_cup';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/pencil_case_model.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.03, 0.03,0.03);
-  model1.position.set(3, 1.3, 3);
-  model1.name = 'pencils_case_model';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/old_key.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(2, 2, 2);
-  model1.position.set(3., 1.5, 4);
-  model1.name = 'key';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI/4;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/GlassBrokenWindow.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(2, 2, 2);
-  model1.position.set(3, 1.5, -4.5);
-  model1.name = 'mirror';
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/painting2.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.3,0.3, 0.3);
-  model1.position.set(-3, 3, -4.7);
-  model1.name = 'mirror';
-  clickableModels.push(model1);
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/painting3.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.01,0.01,0.01);
-  model1.position.set(-4.5,3,0);
-  model1.name = 'painting3';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI/2;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/rainbow.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(0.05,0.05,0.05);
-  model1.position.set(-7.0,7,-2);
-  model1.name = 'rainbow';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI/2;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/painting.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(1, 1, 1);
-  model1.position.set(-3,0,0);
-  model1.name = 'painting';
-  clickableModels.push(model1);
-  model1.rotation.y = Math.PI/4;
-  scene.add(model1);
-}, undefined, (error) => {
-  console.error('Error loading .glb model:', error);
-});
-loader.load('models/SheenWoodLeatherSofa.glb', (gltf) => {
-  const model1 = gltf.scene;
-  model1.scale.set(2, 2, 2);
-  model1.position.set(-1, 0, -4.2);
-  model1.name = 'sheenWoodLeatherSofa';
+  model1.scale.set(40, 40, 40);
+  model1.position.set(0, 0, -30);
+  model1.name = 'drum';
   clickableModels.push(model1);
   scene.add(model1);
 }, undefined, (error) => {
@@ -357,34 +212,16 @@ window.addEventListener('click', (event) => {
   } else {
     const selectedModel = intersects[0].object;
     const modelName = selectedModel.parent?.name || "Unknown Object";
-    if(modelName === "sheenWoodLeatherSofa"){
-      rainbowGame();
+    if (!inventory.includes(modelName)) {
+      addToInventory(modelName);
+      scene.remove(selectedModel.parent as THREE.Object3D);
+      openGameWindow('Item Collected', `You picked up: ${modelName}`);
+    } else {
+      openGameWindow('Object Selected', `You clicked on: ${modelName}`);
     }
-    // if (!inventory.includes(modelName)) {
-    //   addToInventory(modelName);
-    //   scene.remove(selectedModel.parent as THREE.Object3D);
-    //   openGameWindow('Item Collected', `You picked up: ${modelName}`);
-    // } else {
-    //   openGameWindow('Object Selected', `You clicked on: ${modelName}`);
-    // }
   }
 });
-function rainbowGame() {
-  let gameBar = document.getElementById('gameBar');
-  
-  if (!gameBar) {
-    gameBar = document.createElement('div');
-    gameBar.id = 'gameBar';
-    gameBar.innerHTML = `
-      <input type="text" id="wordInput" placeholder="Enter a 7-letter word..." maxlength="7">
-      <button onclick="checkAnswer()">Submit</button>
-      <p id="resultMessage"></p>
-    `;
-    document.body.appendChild(gameBar);
-  }
 
-  gameBar.style.display = 'block';
-}
 function openGameWindow(title: string, message: string): void {
   controls.unlock();
   const windowDiv = document.createElement('div');
@@ -448,8 +285,8 @@ document.addEventListener('keydown', (e) => (keyMap[e.code] = true));
 document.addEventListener('keyup', (e) => (keyMap[e.code] = false));
 const clock = new THREE.Clock();
 function handleMovement(delta: number) {
-  const speed = 5;
-  const verticalSpeed = 3;
+  const speed = 100;
+  const verticalSpeed = 60;
   if (keyMap['KeyW'] || keyMap['ArrowUp']) controls.moveForward(speed * delta);
   if (keyMap['KeyS'] || keyMap['ArrowDown']) controls.moveForward(-speed * delta);
   if (keyMap['KeyA'] || keyMap['ArrowLeft']) controls.moveRight(-speed * delta);
@@ -458,7 +295,7 @@ function handleMovement(delta: number) {
   if (keyMap['KeyX']) camera.position.y -= verticalSpeed * delta;
   const oldPosition = camera.position.clone();
   if (camera.position.y < 1.6) camera.position.y = 1.6;
-  const roomHalfSize = 4.5;
+  const roomHalfSize = 90;
   camera.position.x = Math.max(-roomHalfSize, Math.min(roomHalfSize, camera.position.x));
   camera.position.z = Math.max(-roomHalfSize, Math.min(roomHalfSize, camera.position.z));
 }
