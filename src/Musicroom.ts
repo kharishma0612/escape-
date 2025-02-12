@@ -50,7 +50,7 @@ const otherwallGeometry = new THREE.BoxGeometry(otherwallLength, otherwallHeight
 const wall4 = new THREE.Mesh(otherwallGeometry, roomMaterial) 
 wall4.scale.set(1, 1, 0.5)
 wall4.rotateY(Math.PI / 2)
-wall4.position.set(wallLength / 2, wallHeight / 2, 2)
+wall4.position.set(wallLength / 2, wallHeight / 2, 30)
 scene.add(wall4)
 const loader = new GLTFLoader();
 const clickableModels: THREE.Object3D[] = [];
